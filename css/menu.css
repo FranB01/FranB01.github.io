@@ -1,0 +1,60 @@
+header{
+    position: fixed;
+    height: 3rem;
+    width: 100vw;
+    background:slateblue;
+}
+
+.menu-hamburgesa{
+    margin: 0;
+    background: darkgrey;
+    position: fixed;
+}
+
+.menu-hamburgesa img{
+    height: 3rem;
+}
+
+.menu-hamburgesa input{
+    display: none;
+}
+
+.menu-hamburgesa img:hover{
+    cursor: pointer;
+}
+
+.menu-hamburgesa input:checked ~ #miMenu{
+    display: none;
+}
+
+#miMenu{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30rem;
+
+}
+
+#miMenu li{
+    display: inline-block;
+    width: 30rem;
+    height: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    background: lightgreen;
+    line-height:10vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#miMenu li a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#miMenu li a:hover{
+    background: lightgrey;
+}
