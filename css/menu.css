@@ -1,3 +1,7 @@
+:root{
+    --ancho-menu: 30rem;
+}
+
 header{
     position: fixed;
     height: 3rem;
@@ -7,12 +11,20 @@ header{
 
 .menu-hamburgesa{
     margin: 0;
-    background: darkgrey;
+    background: none;
     position: fixed;
 }
 
-.menu-hamburgesa img{
+.menu-hamburgesa #caja-boton{
+    width: 3rem;
     height: 3rem;
+}
+
+.menu-hamburgesa #caja-boton img{
+    height: 2rem;
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
 }
 
 .menu-hamburgesa input{
@@ -25,19 +37,20 @@ header{
 
 .menu-hamburgesa input:checked ~ #miMenu{
     display: none;
+    transform: translateX(-(var(--ancho-menu)));
 }
 
 #miMenu{
     margin: 0;
     padding: 0;
     display: block;
-    width: 30rem;
-
+    width: var(--ancho-menu);
+    transition: transform 250ms ease-in-out;
 }
 
 #miMenu li{
     display: inline-block;
-    width: 30rem;
+    width: var(--ancho-menu);
     height: 10vh;
     vertical-align: middle;
     text-align: center;
