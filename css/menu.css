@@ -36,27 +36,29 @@ header{
 }
 
 .menu-hamburgesa input:checked ~ #miMenu{
-    display: none;
-    transform: translateX(-(var(--ancho-menu)));
+    /* display: none; */
+    transform: translateX(-30rem);
 }
 
 #miMenu{
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 2rem;
     display: block;
     width: var(--ancho-menu);
+    background: rgb(27, 27, 27);
     transition: transform 250ms ease-in-out;
 }
 
 #miMenu li{
     display: inline-block;
-    width: var(--ancho-menu);
-    height: 10vh;
+    margin: .5rem 0;
+    width: 100%;
+    height: 2rem;
     vertical-align: middle;
-    text-align: center;
-    background: lightgreen;
-    line-height:10vh;
-    font-size: 1.5rem;
+    /* text-align: center; */
+    background: rgb(27, 27, 27);
+    line-height: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
@@ -65,9 +67,9 @@ header{
     height: 100%;
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #miMenu li a:hover{
-    background: lightgrey;
+    color: orange;
 }
