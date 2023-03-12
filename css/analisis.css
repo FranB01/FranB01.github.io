@@ -7,6 +7,7 @@ article{
     overflow: hidden;
     max-width: 1000px;
     width: 70%;
+    border-radius: 1rem;
 }
 
 article img{

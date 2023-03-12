@@ -6,7 +6,7 @@ header{
     position: fixed;
     height: 3rem;
     width: 100vw;
-    background:slateblue;
+    background: rgb(5,5,5);
 }
 
 .menu-hamburgesa{
