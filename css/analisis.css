@@ -56,6 +56,16 @@ article p{
     margin: 4% 15%;
 }
 
+article aside{
+    float: right;
+    width: 30%;
+    border-bottom: 3px solid orange;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
 .resumen{
     width: 100%;
     margin: 1%;
