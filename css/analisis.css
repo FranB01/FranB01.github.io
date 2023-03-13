@@ -87,15 +87,18 @@ article aside{
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 3%;
+}
+
+#box-pos-neg{
+    display: flex;
 }
 
 /* Puntos positivos y negativos */
 .pos-neg{
-    width: 40%;
+    /*width: 80%;*/
+    text-decoration: none;
     display: inline-block;
     margin-right: 5%;
-    text-decoration: none;
 }
 
 .pos-neg li{
@@ -109,14 +112,16 @@ article aside{
 }
 
 #box-conclusion{
-    width: 80%;
-    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 1.5rem 0;
     padding: 0;
-    display: inline-block;
 }
 
 #box-conclusion p{
     width: 90%;
-    margin: 0;
+    margin: 0 1rem 0 0;
     padding: 0;
 }
