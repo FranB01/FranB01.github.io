@@ -68,26 +68,55 @@ article aside{
 
 .resumen{
     width: 100%;
-    margin: 1%;
-    background-color: white;
-    padding: 0.5rem 1rem;
+    margin: 0;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    padding: 0.5rem 2rem;
+    border-radius: 0;
 }
 
-.resumen p{
-    width: 100%;
-}
 
 .nota{
+    display: block;
     border-radius: 100%;
     background: red;
     color: white;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
     text-align: center;
-    /*display: inline-block; */
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 3%;
-    float: right;
+}
+
+/* Puntos positivos y negativos */
+.pos-neg{
+    width: 40%;
+    display: inline-block;
+    margin-right: 5%;
+    text-decoration: none;
+}
+
+.pos-neg li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+.pos-neg ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#box-conclusion{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#box-conclusion p{
+    width: 90%;
+    margin: 0;
+    padding: 0;
 }
