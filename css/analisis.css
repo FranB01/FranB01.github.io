@@ -10,7 +10,7 @@ h2{
     font-size: 3rem;
 }
 
-article{
+#main{
     display: inline-block;
     margin-top: 3rem;
     margin-left: calc(50% - 600px);
