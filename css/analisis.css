@@ -22,12 +22,12 @@ h2{
 }
 
 @media(max-width:1200px){
-    article{
+    #main{
         width: 100%;
         max-width: none;
         border-radius: 0;
         margin-left: 0;
-        padding: 1rem 0rem;
+        padding: 1rem 1.5rem;
     }
 
     p{
@@ -36,27 +36,27 @@ h2{
     }
 }
 
-article img{
+#main img{
     width: 70%;
     display: inline-block;
     margin: 4% 15%;
     border-radius: 1rem;
 }
 
-article #imagen-main{
+#main #imagen-main{
     width: calc(100% + 6rem);
     margin: -1rem -3rem 1rem;
     border-radius: 0;
 }
 
-article p{
+#main p{
     width: 70%;
     margin: 0;
     padding: 0;
     margin: 4% 15%;
 }
 
-article aside{
+#main aside{
     float: right;
     width: 30%;
     border-bottom: 3px solid orange;
