@@ -10,32 +10,6 @@ h2{
     font-size: 3rem;
 }
 
-#main{
-    display: inline-block;
-    margin-top: 3rem;
-    margin-left: calc(50% - 600px);
-    padding: 1rem 3rem;
-    background: white;
-    overflow: hidden;
-    max-width: 1200px;
-    border-radius: 1rem;
-}
-
-@media(max-width:1200px){
-    #main{
-        width: 100%;
-        max-width: none;
-        border-radius: 0;
-        margin-left: 0;
-        padding: 1rem 1.5rem;
-    }
-
-    p{
-        width: 80%;
-        margin: 4% 10%;
-    }
-}
-
 #main img{
     width: 70%;
     display: inline-block;
