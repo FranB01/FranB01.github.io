@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/genericos.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/ficha.css">
+    <script src="../js/ficha.js"></script>
 </head>
 
 <body>
@@ -35,22 +36,28 @@
 
     <section id="main">
         <img id="imagen-main" src="../images/portadaHFR.png" alt="Portada HiFi Rush">
+        <h1>Hi-Fi Rush</h1>
         <nav id="nav-ficha">
+            <a class="boton-tab" onclick="cambiarTab('tab-analisis')">Análisis</a>
+            <a class="boton-tab" onclick="cambiarTab('tab-noticias')">Noticias</a>
+            <a class="boton-tab" onclick="cambiarTab('tab-guias')">Guías</a>
+            <a class="boton-tab" onclick="cambiarTab('tab-imagenes')">Imágenes</a>
         </nav>
         <!-- Análisis -->
-        <div class="tab">
+        <div class="tab" id="tab-analisis">
             <h3>Análisis</h3>
+
         </div>
         <!-- Noticias -->
-        <div class="tab"> 
+        <div class="tab" id="tab-noticias" style="display: none;"> 
             <h3>Noticias</h3>
         </div>
         <!-- Guías -->
-        <div class="tab">
+        <div class="tab" id="tab-guias" style="display: none;">
             <h3>Guías</h3>
         </div>
         <!-- Imágenes -->
-        <div class="tab">
+        <div class="tab" id="tab-imagenes" style="display: none;">
             <h3>Imágenes</h3>
         </div>
     </section>
