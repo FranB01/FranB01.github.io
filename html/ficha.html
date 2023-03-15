@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="../css/genericos.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/ficha.css">
+    <link rel="stylesheet" href="../css/carrusel.css">
     <script src="../js/ficha.js"></script>
+    <script src="../js/carrusel.js"></script>
 </head>
 
 <body>
@@ -62,15 +64,18 @@
             <h3>Guías</h3>
         </div>
         <!-- Imágenes -->
-        <!-- https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/ -->
+        <!-- https://medium.com/allenhwkim/how-to-build-a-carousel-in-pure-javascript-98d758a18811 -->
+        <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
         <div class="tab" id="tab-imagenes" style="display: none;">
             <h3>Imágenes</h3>
-            <div class="caja-slider">
-                <img src="../images/hifirush1.jpg" alt="">
-                <img src="../images/hifirush2.jpg" alt="">
-                <img src="../images/portadaHFR.png" alt="">
-                <button class="boton-carr boton-next">></button>
-                <button class="boton-carr boton-prev">&lt;</button>
+            <div class="caja-carrusel">
+                <div class="carrusel">
+                    <img src="../images/hifirush1.jpg"  class="img-carr" alt="">
+                    <img src="../images/hifirush2.jpg"  class="img-carr" alt="">
+                    <img src="../images/portadaHFR.png" class="img-carr" alt="">
+                </div>
+                <!-- <button class="boton-carr boton-next">&gt;</button>
+                <button class="boton-carr boton-prev">&lt;</button> -->
             </div>
         </div>
     </section>

@@ -49,41 +49,46 @@ h1 {
     color: orange;
 }
 
-.caja-slider {
-    width: 100%;
+.caja-carrusel {
+    width: 90%;
     max-width: 800px;
     height: 450px;
-    position: relative;
+    overflow: hidden;
+    margin-left: max(calc(calc(100% - 800px)/2), 5%);
 }
 
-.caja-slider img {
-    width: 100%;
-    max-width: 800px;
+.caja-carrusel .carrusel{
+    margin: 0;
+    padding: 0;
+    animation: slideshow 15s infinite;
+    width: 2400px;
+    display: flex;
+}
+
+.caja-carrusel .img-carr {
+    width: 800px;
     height: 450px;
-    position: absolute;
-    transition: translateX 0.5s;
-    object-fit: cover;
+    display: block;
 }
 
 .boton-carr {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: none;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #333;
     border-radius: 50%;
-    z-index: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    font-size: 18px;
+    width: 44px;
+    height: 44px;
 }
 
-.boton-prev {
+/* .boton-prev {
     top: 45%;
     left: 2%;
-  }
-  
+}
+
 .boton-next {
     top: 45%;
     right: 2%;
-  }
+} */

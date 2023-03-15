@@ -1,0 +1,9 @@
+@keyframes slideshow {
+  0%   	{ margin-left: 0.5%; 			}
+  33% 	{ margin-left: -100%; 	}
+  66% 	{ margin-left: -200%;	}
+}
+
+.caja-carrusel .carrusel{
+  animation: slideshow 15s infinite;
+}
