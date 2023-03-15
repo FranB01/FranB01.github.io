@@ -1,8 +1,8 @@
-#main{
+#main {
     margin-top: 5rem;
 }
 
-#main #imagen-main{
+#main #imagen-main {
     width: calc(100% + 6rem);
     margin: -1rem -3rem 0;
     border-radius: 0;
@@ -10,45 +10,80 @@
 }
 
 @media only screen and (max-width:1250px) {
-    #main{
+    #main {
         margin-top: 3rem;
     }
 }
 
-h1{
+h1 {
     position: absolute;
     top: 6rem;
     margin: 0;
     padding: 0;
 }
 
-#nav-ficha{
+#nav-ficha {
     display: flex;
     width: calc(100% + 6rem);
     margin: 0 -3rem;
 }
 
 @media only screen and (max-width:1250px) {
-    #nav-ficha{
+    #nav-ficha {
         margin: 0 -1.5rem;
         width: calc(100% + 3rem);
     }
 }
 
-.boton-tab{
+.boton-tab {
     width: 80%;
     text-align: center;
-    background: rgb(27,27,27);
+    background: rgb(27, 27, 27);
     color: white;
     height: 2rem;
     line-height: 2rem;
 }
 
-.boton-tab:hover{
+.boton-tab:hover {
     cursor: pointer;
     color: orange;
 }
 
-.tab{
-    
+.caja-slider {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    position: relative;
 }
+
+.caja-slider img {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    position: absolute;
+    transition: translateX 0.5s;
+    object-fit: cover;
+}
+
+.boton-carr {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.boton-prev {
+    top: 45%;
+    left: 2%;
+  }
+  
+.boton-next {
+    top: 45%;
+    right: 2%;
+  }
