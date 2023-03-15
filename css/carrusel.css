@@ -1,7 +1,7 @@
 @keyframes slideshow {
-  0%   	{ margin-left: 0.5%; 			}
-  33% 	{ margin-left: -100%; 	}
-  66% 	{ margin-left: -200%;	}
+  0%   	{ transform:translateX(0.5%); 			}
+  33% 	{ transform:translateX(-100%); 	}
+  66% 	{ transform:translateX(-200%);	}
 }
 
 .caja-carrusel .carrusel{
