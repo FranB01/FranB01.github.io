@@ -13,16 +13,18 @@ header{
     margin: 0;
     background: none;
     position: fixed;
+    left: -30rem;
 }
 
 .menu-hamburgesa #caja-boton{
     width: 3rem;
     height: 3rem;
+    margin-left: 30rem;
 }
 
 .menu-hamburgesa #caja-boton img{
     height: 2rem;
-    position: absolute;
+    position: relative;
     top: .5rem;
     left: .5rem;
 }
@@ -37,7 +39,7 @@ header{
 
 .menu-hamburgesa input:checked ~ #miMenu{
     /* display: none; */
-    transform: translateX(-30rem);
+    transform: translateX(30rem);
 }
 
 #miMenu{
