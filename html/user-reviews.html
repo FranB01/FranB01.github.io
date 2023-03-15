@@ -8,10 +8,7 @@
     <!-- <link rel="stylesheet" href="css/estilo.css"> -->
     <link rel="stylesheet" href="../css/genericos.css">
     <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/ficha.css">
-    <link rel="stylesheet" href="../css/carrusel.css">
-    <script src="../js/ficha.js"></script>
-    <script src="../js/carrusel.js"></script>
+    <link rel="stylesheet" href="../css/reviews.css">
 </head>
 
 <body>
@@ -37,35 +34,16 @@
     </nav>
 
     <div id="main">
-        <img id="imagen-main" src="../images/portadaHFR.png" alt="Portada HiFi Rush">
-        <h1>Hi-Fi Rush</h1>
         <h2>Reseñas de usuarios</h2>
         <div class="caja-reviews">
             <article class="review">
-                <h3>Uno de los mejores juegos que he jugado en mucho tiempo</h3>
                 <div class="usuario">
-                    <a href="#">
-                        <img src="../images/avatar.png" alt="img-perfil">
-                        <h4>Atrx1997</h4>
-                    </a>
+                    <div class="username"href="#">
+                        <a href="#">Atrx1997</a>
+                    </div>
                 </div>
-                <div class="plataforma">PC</div>
-                <section class="review-main">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates sit possimus maxime rerum,
-                    aperiam suscipit expedita in ex laudantium eos ducimus debitis atque aliquid facere labore? Atque, non
-                    cumque.
-                </section>
-                <div class="nota">9</div>
-            </article>
-            <article class="review">
+                <div class="plataforma">Plataforma: PC</div>
                 <h3>Uno de los mejores juegos que he jugado en mucho tiempo</h3>
-                <div class="usuario">
-                    <a href="#">
-                        <img src="../images/avatar.png" alt="img-perfil">
-                        <h4>Atrx1997</h4>
-                    </a>
-                </div>
-                <div class="plataforma">Xbox Series X</div>
                 <section class="review-main">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates sit possimus maxime rerum,
                     aperiam suscipit expedita in ex laudantium eos ducimus debitis atque aliquid facere labore? Atque, non
@@ -75,6 +53,7 @@
             </article>
         </div>
         <div class="input-review">
+            <h3>Envía tu reseña:</h3>
             <form method="post">
                 <label for="titulo">Título de la reseña</label><br>
                 <input type="text" name="titulo" id="titulo"><br>
@@ -89,8 +68,8 @@
                 <label for="nota">Nota: </label><br>
                 <input type="number" name="nota" id="nota" min="0" max="10" required><br>
                 <input type="checkbox" name="terminos" id="terminos" required>
-                <label for="terminos">He leído y acepto las <a href="#">Normas de la comunidad</a></label>
-                <input type="submit" value="submit">
+                <label for="terminos">He leído y acepto las <a href="#">Normas de la comunidad</a></label><br>
+                <input type="submit" value="Enviar">
             </form>
         </div>
     </div>

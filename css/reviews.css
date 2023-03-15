@@ -1,0 +1,27 @@
+.caja-reviews{
+    display: flex;
+}
+
+.review{
+    border: 1px black solid;
+    margin: 0 5%;
+}
+
+.review .usuario{
+    margin: 1rem 1rem;
+    display: inline-block;
+}
+
+/* .review .username{
+
+}  */
+
+/* .review .usuario img{
+    height: 4rem;
+    vertical-align: middle;
+} */
+
+.plataforma{
+    float: right;
+    margin: 1rem 1rem;
+}
