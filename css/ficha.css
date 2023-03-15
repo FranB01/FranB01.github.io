@@ -16,7 +16,7 @@
 
 h1{
     position: absolute;
-    bottom: 3rem;
+    top: 6rem;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,8 @@ h1{
     text-align: center;
     background: rgb(27,27,27);
     color: white;
-
+    height: 2rem;
+    line-height: 2rem;
 }
 
 .boton-tab:hover{
