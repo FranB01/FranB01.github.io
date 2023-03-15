@@ -24,28 +24,31 @@ body{
     width: 100%;
 }
 
-@media only screen and (max-width:1250px){
-    body{
-        font-size: 1rem;
-    }
+#main p{
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    margin: 4% 15%;
+}
 
+@media only screen and (max-width:1250px){
     #main{
         width: 100%;
         max-width: none;
         border-radius: 0;
         margin-left: 0;
-        padding: 1rem 1rem;
+        padding: 1rem 5%;
     }
 
-    p{
-        width: 80%;
-        margin: 4% 10%;
+    #main p{
+        width: 90%;
+        margin: 4% 5%;
     }
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1000px){
     body{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 

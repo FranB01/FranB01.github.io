@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <!-- <link rel="stylesheet" href="css/estilo.css"> -->
+    <link rel="stylesheet" href="../css/genericos.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/ficha.css">
+    <link rel="stylesheet" href="../css/carrusel.css">
+    <script src="../js/ficha.js"></script>
+    <script src="../js/carrusel.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+    <nav class="menu-hamburgesa">
+        <div id="caja-boton">
+            <label for="hamburgesa">
+                <img src="../images/menuw.svg" alt="Menu Hamburgesa">
+            </label>
+        </div>
+        <input type="checkbox" id="hamburgesa" unchecked>
+        <ul id="miMenu">
+            <li><a href="#">Noticias</a></li>
+            <li><a href="../html/analisis.html">Análisis</a></li>
+            <li><a href=".html">Guías</a></li>
+            <li><a href=".html">Lanzamientos</a></li>
+            <li><a href=".html">PS5</a></li>
+            <li><a href=".html">Xbox Series X/S</a></li>
+            <li><a href=".html">Switch</a></li>
+            <li><a href=".html">PC</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <img id="imagen-main" src="../images/portadaHFR.png" alt="Portada HiFi Rush">
+        <h1>Hi-Fi Rush</h1>
+        <h2>Reseñas de usuarios</h2>
+        <div class="caja-reviews">
+            <article class="review">
+                <h3>Uno de los mejores juegos que he jugado en mucho tiempo</h3>
+                <div class="usuario">
+                    <a href="#">
+                        <img src="../images/avatar.png" alt="img-perfil">
+                        <h4>Atrx1997</h4>
+                    </a>
+                </div>
+                <div class="plataforma">PC</div>
+                <section class="review-main">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates sit possimus maxime rerum,
+                    aperiam suscipit expedita in ex laudantium eos ducimus debitis atque aliquid facere labore? Atque, non
+                    cumque.
+                </section>
+                <div class="nota">9</div>
+            </article>
+            <article class="review">
+                <h3>Uno de los mejores juegos que he jugado en mucho tiempo</h3>
+                <div class="usuario">
+                    <a href="#">
+                        <img src="../images/avatar.png" alt="img-perfil">
+                        <h4>Atrx1997</h4>
+                    </a>
+                </div>
+                <div class="plataforma">Xbox Series X</div>
+                <section class="review-main">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates sit possimus maxime rerum,
+                    aperiam suscipit expedita in ex laudantium eos ducimus debitis atque aliquid facere labore? Atque, non
+                    cumque.
+                </section>
+                <div class="nota">9</div>
+            </article>
+        </div>
+        <div class="input-review">
+            <form method="post">
+                <label for="titulo">Título de la reseña</label><br>
+                <input type="text" name="titulo" id="titulo"><br>
+                <label for="plat">Plataforma:</label><br>
+                <select name="plat" id="plat" required>
+                    <option value="xbx">Xbox Series X</option>
+                    <option value="xbs">Xbox Series S</option>
+                    <option value="pc">PC</option>
+                </select><br>
+                <label for="cuerpo">Reseña: </label><br>
+                <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea><br>
+                <label for="nota">Nota: </label><br>
+                <input type="number" name="nota" id="nota" min="0" max="10" required><br>
+                <input type="checkbox" name="terminos" id="terminos" required>
+                <label for="terminos">He leído y acepto las <a href="#">Normas de la comunidad</a></label>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

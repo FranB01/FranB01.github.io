@@ -34,13 +34,6 @@ h2{
     border-radius: 0;
 }
 
-#main p{
-    width: 70%;
-    margin: 0;
-    padding: 0;
-    margin: 4% 15%;
-}
-
 #main aside{
     float: right;
     width: 30%;
@@ -72,6 +65,7 @@ h2{
     text-align: center;
     font-weight: bold;
     font-size: 3rem;
+    flex-shrink: 0;
 }
 
 #box-pos-neg{
@@ -109,4 +103,12 @@ h2{
     width: 90%;
     margin: 0 1rem 0 0;
     padding: 0;
+}
+
+@media only screen and (max-width:1250px){
+    #main aside{
+        width: 100%;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
 }
