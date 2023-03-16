@@ -21,6 +21,10 @@ h2{
     font-size: 3rem;
 }
 
+#titulo h2 a{
+    color: orange;
+}
+
 #main img{
     width: 70%;
     display: inline-block;
