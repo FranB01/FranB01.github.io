@@ -10,9 +10,22 @@
     border: 1px grey solid;
     margin: 1rem 0;
     padding: 1rem;
-    width: 45%;
     border-radius: 1rem;
     box-shadow: 0 .5rem .5rem grey;
+    /* max-height: 300px; */
+}
+
+.review-main{
+    max-height: 200px;
+    overflow: hidden;
+}
+
+
+
+#main .review p{
+    margin: 0 0 0.3rem;
+    padding: 0;
+    width: 100%;
 }
 
 .review .usuario{
@@ -23,15 +36,8 @@
     height: 1rem;
 }
 
-@media only screen and (max-width:1250px){
-    .caja-reviews{
-        
-    }
-
-    .review{
-        width: 90%;
-    }
-}
+/* @media only screen and (max-width:1250px){
+} */
 
 /* .review .username{
 
@@ -52,6 +58,31 @@
     vertical-align: middle;
     font-size: 2rem;
     font-weight: bolder;
+}
+
+.flecha{
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    transition: background-color .1s;
+    box-shadow: 0 -1rem .5rem white;
+}
+
+.flecha:hover{
+    background-color: lightgray;
+}
+
+.flecha img{
+    position: relative;
+    left: calc(50% - 24px);
+}
+
+input#next:checked ~ .flecha img{
+    transform: rotate(180deg);
+}
+
+input#next:checked ~ .long{
+    max-height: none;
 }
 
 .verde{

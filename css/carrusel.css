@@ -7,3 +7,12 @@
 .caja-carrusel .carrusel{
   animation: slideshow 15s infinite;
 }
+
+/* .caja-carrusel:hover .carrusel{
+  animation-play-state: paused;
+}
+
+.caja-carrusel .carrusel .img-carrusel:hover{
+  z-index: top;
+
+} */
