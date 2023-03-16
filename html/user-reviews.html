@@ -34,7 +34,36 @@
     </nav>
 
     <div id="main">
-        <h2>Reseñas de usuarios</h2>
+        <h2><a href="ficha.html">Hi-Fi Rush:</a> Reseñas de usuarios</h2>
+        
+        <input type="checkbox" name="check-review" id="check-review" hidden unchecked>
+        <label for="check-review" class="boton-review">Envía tu reseña</label>
+        <div id="input-review">
+            <form method="post">
+                <div id="input-tit-plat">
+                    <div id="input-titulo">
+                        <label for="titulo">Título de la reseña</label><br>
+                        <input type="text" name="titulo" id="titulo">
+                    </div>
+                    <div class="input-plataforma">
+                        <label for="plat">Plataforma:</label><br>
+                        <select name="plat" id="plat" required>
+                            <option disabled selected value style="display:none"></option>
+                            <option value="xbx">Xbox Series X</option>
+                            <option value="xbs">Xbox Series S</option>
+                            <option value="pc">PC</option>
+                        </select><br>
+                    </div>
+                </div>
+                <label for="cuerpo">Reseña: </label><br>
+                <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea><br>
+                <label for="nota">Nota: </label><br>
+                <input type="number" name="nota" id="nota" min="0" max="10" required><br>
+                <input type="checkbox" name="terminos" id="terminos" required>
+                <label for="terminos">He leído y acepto las <a href="#">Normas de la comunidad</a></label><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
         <div class="caja-reviews">
             <article class="review">
                 <div class="usuario">
@@ -122,26 +151,7 @@
                 </section>
             </article>
         </div>
-        <div class="input-review">
-            <h3>Envía tu reseña:</h3>
-            <form method="post">
-                <label for="titulo">Título de la reseña</label><br>
-                <input type="text" name="titulo" id="titulo"><br>
-                <label for="plat">Plataforma:</label><br>
-                <select name="plat" id="plat" required>
-                    <option value="xbx">Xbox Series X</option>
-                    <option value="xbs">Xbox Series S</option>
-                    <option value="pc">PC</option>
-                </select><br>
-                <label for="cuerpo">Reseña: </label><br>
-                <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea><br>
-                <label for="nota">Nota: </label><br>
-                <input type="number" name="nota" id="nota" min="0" max="10" required><br>
-                <input type="checkbox" name="terminos" id="terminos" required>
-                <label for="terminos">He leído y acepto las <a href="#">Normas de la comunidad</a></label><br>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
+        
     </div>
 </body>
 

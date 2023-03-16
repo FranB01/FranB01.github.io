@@ -1,3 +1,70 @@
+#main{
+    margin-top: 6rem;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+input, textarea{
+    margin-bottom: 1rem;
+}
+
+#input-tit-plat{
+    display: flex;
+    column-gap: 10%;
+}
+
+#input-titulo{
+    width: 70%;
+}
+
+#input-titulo #titulo{
+    width: 100%;
+}
+
+#cuerpo{
+    width: 100%;
+}
+
+#nota{
+    font-size: x-large;
+    width: 3em;
+}
+
+#input-review form{
+    display: none;
+}
+
+input#check-review:checked ~ #input-review form{
+    display: block;
+}
+
+input#check-review:checked ~ .boton-review{
+    display: none;
+}
+
+.boton-review{
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1rem;
+    background: linear-gradient(145deg, rgba(255,85,0,1) 0%, rgba(255,209,0,1) 50%, rgba(255,85,0,1) 100%); 
+    background-size: 400% 400%;
+    border-radius: 1rem;
+}
+
+@keyframes gradiente {
+    100%{background-position: 100% 50%;}
+}
+
+.boton-review:hover{
+    /* background: linear-gradient(-45deg, rgba(255,85,0,1) 0%, rgba(255,209,0,1) 100%); */
+    animation: gradiente 1s ease 0s 1 forwards;
+}
+
 .caja-reviews{
     display: flex;
     flex-wrap: wrap;
@@ -19,8 +86,6 @@
     max-height: 200px;
     overflow: hidden;
 }
-
-
 
 #main .review p{
     margin: 0 0 0.3rem;
