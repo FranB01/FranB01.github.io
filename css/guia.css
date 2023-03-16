@@ -1,3 +1,15 @@
 html{
     scroll-behavior: smooth;
 }
+
+#titulo{
+    display: inline-block;
+    margin-top: 5rem;
+    color:white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h2{
+    font-size: 3rem;
+}

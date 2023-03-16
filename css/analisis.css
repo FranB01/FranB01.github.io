@@ -1,10 +1,4 @@
-#titulo{
-    display: inline-block;
-    margin-top: 5rem;
-    color:white;
-    width: 80%;
-    margin-left: 10%;
-}
+
 
 h1{
     text-align: center; 
@@ -19,10 +13,6 @@ h1{
 
 h2{
     font-size: 3rem;
-}
-
-#titulo h2 a{
-    color: orange;
 }
 
 #main img{

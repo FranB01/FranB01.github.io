@@ -12,6 +12,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#titulo{
+    display: inline-block;
+    margin-top: 5rem;
+    color:white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#titulo h2 a{
+    color: orange;
+}
+
 #main{
     display: inline-block;
     margin-top: 3rem;
