@@ -1,15 +1,36 @@
 .caja-reviews{
     display: flex;
+    flex-wrap: wrap;
+    column-gap: normal;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .review{
-    border: 1px black solid;
-    margin: 0 5%;
+    border: 1px grey solid;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem .5rem grey;
 }
 
 .review .usuario{
-    margin: 1rem 1rem;
     display: inline-block;
+}
+
+.review .plataforma img{
+    height: 1rem;
+}
+
+@media only screen and (max-width:1250px){
+    .caja-reviews{
+        
+    }
+
+    .review{
+        width: 90%;
+    }
 }
 
 /* .review .username{
@@ -21,7 +42,23 @@
     vertical-align: middle;
 } */
 
-.plataforma{
+.nota{
     float: right;
-    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.verde{
+    background-color: green;
+    color:white;
+}
+
+.amarillo{
+    background-color: yellow;
 }
