@@ -13,3 +13,24 @@ html{
 h2{
     font-size: 3rem;
 }
+
+#indice ul{
+    list-style-type: none;
+
+}
+
+#indice ul li{
+    font-weight: thin;
+    display: block;
+    width: 100%;	
+}
+
+#indice ul li .indent{
+    padding-left: 3rem;
+}
+
+#indice ul li a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
