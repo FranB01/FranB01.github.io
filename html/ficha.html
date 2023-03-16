@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/ficha.css">
     <link rel="stylesheet" href="../css/carrusel.css">
     <script src="../js/ficha.js"></script>
-    <script src="../js/carrusel.js"></script>
+    <!-- <script src="../js/carrusel.js"></script> -->
 </head>
 
 <body>
@@ -37,8 +37,16 @@
     </nav>
 
     <section id="main">
-        <img id="imagen-main" src="../images/portadaHFR.png" alt="Portada HiFi Rush">
-        <h1>Hi-Fi Rush</h1>
+        <div id="cabecera">
+            <div id="datos">
+                <h2>Hi-Fi Rush</h2>
+                <div><span class="categoria">Plataformas:</span> Xbox Series X/S, PC </div>
+                <div><span class="categoria">Género:</span> Aventura, Hack n' Slash</div>
+                <div><span class="categoria">Desarrollo: </span>Tango Gameworks</div>
+                <div><span class="categoria">Produccion: </span>Bethesda Softworks</div>
+            </div>
+            <img id="imagen-main" src="../images/portadaHFR.png" alt="Portada HiFi Rush">
+        </div>
         <nav id="nav-ficha">
             <a class="boton-tab" onclick="cambiarTab('tab-analisis')">Análisis</a>
             <a class="boton-tab" onclick="cambiarTab('tab-noticias')">Noticias</a>
@@ -47,7 +55,6 @@
         </nav>
         <!-- Análisis -->
         <div class="tab" id="tab-analisis">
-            <h3>Análisis</h3>
             <div class="caja-link">
                 <a href="analisis.html">
                     <img src="../images/portadaHFR.png" alt="Portada HFR">
@@ -57,15 +64,12 @@
         </div>
         <!-- Noticias -->
         <div class="tab" id="tab-noticias" style="display: none;"> 
-            <h3>Noticias</h3>
         </div>
         <!-- Guías -->
         <div class="tab" id="tab-guias" style="display: none;">
-            <h3>Guías</h3>
         </div>
         <!-- Imágenes -->
         <div class="tab" id="tab-imagenes" style="display: none;">
-            <h3>Imágenes</h3>
             <div class="caja-carrusel">
                 <div class="carrusel">
                     <img src="../images/hifirush1.jpg"  class="img-carr" alt="">
