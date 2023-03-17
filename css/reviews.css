@@ -40,13 +40,15 @@ input, textarea{
 
 input#check-review:checked ~ #input-review form{
     display: block;
+    border-bottom: 2px solid gray;
+    margin-bottom: 1rem;
 }
 
-input#check-review:checked ~ .boton-review{
+input#check-review:checked ~ label[for = check-review]{
     display: none;
 }
 
-.boton-review{
+label[for = check-review]{
     display: block;
     cursor: pointer;
     width: fit-content;
@@ -55,13 +57,14 @@ input#check-review:checked ~ .boton-review{
     background-size: 400% 400%;
     border-radius: 1rem;
     color:white;
+    margin-bottom: 1rem;
 }
 
 @keyframes gradiente {
     100%{background-position: 100% 50%;}
 }
 
-.boton-review:hover{
+label[for = check-review]:hover{
     /* background: linear-gradient(-45deg, rgba(255,85,0,1) 0%, rgba(255,209,0,1) 100%); */
     animation: gradiente 1s ease 0s 1 forwards;
 }
