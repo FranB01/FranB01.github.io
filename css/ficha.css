@@ -83,7 +83,7 @@
 
 @media only screen and (max-width:1250px) {
     #nav-ficha {
-        margin: 0 -5vw;
+        margin: 0 -5vw 1rem;
         width: 100vw;
     }
     #cabecera{
@@ -105,6 +105,17 @@
 .boton-tab:hover {
     cursor: pointer;
     color: orange;
+}
+
+#main .pag-vacia p{
+    text-align: center;
+    margin-top: 0;
+}
+
+.pag-vacia img{
+    width: 200px;
+    text-align: center;
+    margin-left: calc(50% - 100px);
 }
 
 .caja-carrusel {
