@@ -21,7 +21,7 @@ input, textarea{
     width: 70%;
 }
 
-#input-titulo #titulo{
+#input-titulo #titulo-rev{
     width: 100%;
 }
 
@@ -54,6 +54,7 @@ input#check-review:checked ~ .boton-review{
     background: linear-gradient(145deg, rgba(255,85,0,1) 0%, rgba(255,209,0,1) 50%, rgba(255,85,0,1) 100%); 
     background-size: 400% 400%;
     border-radius: 1rem;
+    color:white;
 }
 
 @keyframes gradiente {

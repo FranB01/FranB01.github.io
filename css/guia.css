@@ -14,15 +14,24 @@ h2{
     font-size: 3rem;
 }
 
+#indice{
+    border: 2px gray solid;
+    width: 50%;	
+    border-radius: .5rem;
+}
+
+#indice h4{
+    margin: 1rem 1rem;
+}
+
 #indice ul{
     list-style-type: none;
-
+    padding: 0 1rem;
 }
 
 #indice ul li{
     font-weight: thin;
     display: block;
-    width: 100%;	
 }
 
 #indice ul li .indent{
@@ -33,4 +42,11 @@ h2{
     text-decoration: none;
     width: 100%;
     display: block;
+    color: grey;
+    padding-left: 0.5rem;
+}
+
+#indice ul li a:hover{
+    color: black;
+    background: orange;
 }
