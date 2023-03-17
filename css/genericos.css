@@ -10,6 +10,8 @@ body{
     padding: 0;
     background-color: rgb(27,27,27);
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    position: relative; /* Para que funcione el footer */
 }
 
 #titulo{
@@ -28,6 +30,7 @@ body{
     display: inline-block;
     margin-top: 3rem;
     margin-left: calc(50% - 600px);
+    margin-bottom: 3rem;
     padding: 1rem 3rem;
     background: white;
     overflow: hidden;
@@ -112,10 +115,21 @@ footer{
     height: 2rem;
     margin-top: 1rem;
     line-height: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
 }
 
 footer .copyright{
+    /* display: inline-block; */
     float: right;
+    margin-right: 1rem;
+}
+
+footer .inicio{
+    width: fit-content;
+    display: inline-block;
 }
 
 footer .inicio a{
@@ -123,6 +137,7 @@ footer .inicio a{
     text-decoration: none;
     color:white;
     height: 100%;
+    display: block;
 }
 
 footer .inicio a:hover{
