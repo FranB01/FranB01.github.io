@@ -1,3 +1,12 @@
+/* css.gg
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
 :root{
     --ancho-menu: 30rem;
     --ancho-menu-neg: -30rem;
@@ -75,4 +84,11 @@ header{
 
 #miMenu li a:hover{
     color: orange;
+}
+
+li a span.material-symbols-outlined{
+    display: inline-block;
+    top:4px;
+    position: relative;
+    margin-right: .5em;
 }
