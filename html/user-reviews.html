@@ -65,14 +65,25 @@
                 <input type="submit" value="Enviar">
             </form>
         </div>
+
         <div class="caja-reviews">
-            <article class="review">
+        
+            <div>
+                <input type="checkbox" name="ver-positivas" id="ver-positivas" checked>
+                <label for="ver-positivas">Ver reseñas positivas (&gt;8)</label>
+                <input type="checkbox" name="" id="ver-mixtas" checked>
+                <label for="ver-mixtas">Ver reseñas mixtas (5 ~ 7)</label>
+                <input type="checkbox" name="" id="ver-negativas" unchecked disabled>
+                <label for="ver-negativas">Ver reseñas negativas (&lt;5)</label>
+            </div>
+
+            <article class="review positiva">
                 <div class="usuario">
                     <div class="username" href="#">
                         <a href="#">Atrx1997</a>
                     </div>
                 </div>
-                <div class="nota verde">9</div>
+                <div class="nota">9</div>
                 <div class="plataforma">Plataforma: <img src="../images/windows.svg"></div>
                 <h3></h3>
                 <input type="checkbox" name="next" id="next" hidden>
@@ -130,13 +141,13 @@
                 </label>
             </article>
 
-            <article class="review">
+            <article class="review positiva">
                 <div class="usuario">
                     <div class="username" href="#">
                         Anónimo
                     </div>
                 </div>
-                <div class="nota verde">10</div>
+                <div class="nota">10</div>
                 <div class="plataforma">Plataforma: <img src="../images/windows.svg"></div>
                 <h3>Devil may dance</h3>
                 <section class="review-main">
@@ -146,13 +157,13 @@
                 </section>
             </article>
 
-            <article class="review">
+            <article class="review mixta">
                 <div class="usuario">
                     <div class="username" href="#">
                         <a href="#">mr_bass</a>
                     </div>
                 </div>
-                <div class="nota amarillo">7</div>
+                <div class="nota">7</div>
                 <div class="plataforma">Plataforma: <img src="../images/Xbox.svg"></div>
                 <h3></h3>
                 <section class="review-main">

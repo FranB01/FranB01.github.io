@@ -66,6 +66,18 @@ input#check-review:checked ~ .boton-review{
     animation: gradiente 1s ease 0s 1 forwards;
 }
 
+label[for = ver-negativas]{
+    text-decoration:line-through;
+}
+
+input#ver-positivas:not(:checked) ~ .caja-reviews .positiva{
+    display: none;
+}
+
+input#ver-mixtas:not(:checked) ~ .caja-reviews .mixta{
+    display: none;
+}
+
 .caja-reviews{
     display: flex;
     flex-wrap: wrap;
@@ -142,11 +154,12 @@ input#next:checked ~ .long{
     max-height: none;
 }
 
-.verde{
+.positiva .nota{
     background-color: green;
     color:white;
 }
 
-.amarillo{
+.mixta .nota{
     background-color: yellow;
 }
+
