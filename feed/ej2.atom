@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Feed de Atom</title>
+    <link rel="self" type="application/atom+xml" href=""/>
+    <author><name>Francesco Bezos</name></author>
+
+    <entry>
+        <title>El tiempo</title>
+        <link>https://www.eltiempo.es/santa-cruz-de-tenerife.html</link>
+        <id>https://www.eltiempo.es/santa-cruz-de-tenerife.html</id>
+        <content>El tiempo en Santa Cruz de Tenerife</content>
+    </entry>
+
+    <item>
+        <title>La carrera espacial más agresiva no es entre EEUU y China: es entre Emiratos y Arabia Saudí</title>
+        <link>https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</link>
+        <id>https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</id>
+    </item>
+
+    <item>
+        <title>Comienza la gran ofensiva contra la mayor empresa cripto del mundo: la SEC demanda a Binance</title>
+        <link>https://FranB01.github.io/html/noticia.html</link>
+        <id>https://FranB01.github.io/html/noticia.html</id>
+    </item>
+</feed>
