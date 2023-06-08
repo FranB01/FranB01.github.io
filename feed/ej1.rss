@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>RSS ejercicio</title>
+        <atom:link href="https://franb01.github.io/feed/ej1.rss" rel="self" type="application/rss+xml" />
         <link>https://FranB01.github.io</link>
         <language>ES-es</language>
         <description>Pues es una feed de RSS</description>
@@ -9,6 +10,7 @@
         <item>
             <title>El tiempo</title>
             <link>https://www.eltiempo.es/santa-cruz-de-tenerife.html</link>
+            <guid>https://www.eltiempo.es/santa-cruz-de-tenerife.html</guid>
             <description>El tiempo en Santa Cruz de Tenerife</description>
             <!-- <pubDate>Tue, 6 Jun 2023 16:00:00 GMT</pubDate> -->
         </item>
@@ -16,11 +18,13 @@
         <item>
             <title>La carrera espacial más agresiva no es entre EEUU y China: es entre Emiratos y Arabia Saudí</title>
             <link>https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</link>
+            <guid>https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</guid>
         </item>
 
         <item>
             <title>Comienza la gran ofensiva contra la mayor empresa cripto del mundo: la SEC demanda a Binance</title>
             <link>https://FranB01.github.io/html/noticia.html</link>
+            <guid>https://FranB01.github.io/html/noticia.html</guid>
         </item>
         
     </channel>
