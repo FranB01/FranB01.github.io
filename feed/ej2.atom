@@ -6,6 +6,8 @@
     <author>
         <name>Francesco Bezos</name>
     </author>
+    <updated>2023-06-11T19:00:00+00:00</updated>
+    <id>https://franb01.github.io/feed/ej2.atom</id>
 
     <entry>
         <title>El tiempo</title>
@@ -14,19 +16,19 @@
         <content>El tiempo en Santa Cruz de Tenerife</content>
     </entry>
 
-    <item>
+    <entry>
         <title>La carrera espacial más agresiva no es entre EEUU y China: es entre Emiratos y Arabia
             Saudí</title>
         <link
             href="https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi" />
         <id>
             https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</id>
-    </item>
+    </entry>
 
-    <item>
+    <entry>
         <title>Comienza la gran ofensiva contra la mayor empresa cripto del mundo: la SEC demanda a
             Binance</title>
         <link href="https://FranB01.github.io/html/noticia.html" />
         <id>https://FranB01.github.io/html/noticia.html</id>
-    </item>
+    </entry>
 </feed>
