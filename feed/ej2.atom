@@ -14,6 +14,7 @@
         <link href="https://www.eltiempo.es/santa-cruz-de-tenerife.html" />
         <id>https://www.eltiempo.es/santa-cruz-de-tenerife.html</id>
         <content>El tiempo en Santa Cruz de Tenerife</content>
+        <updated>2023-06-11T19:00:00+00:00</updated>
     </entry>
 
     <entry>
@@ -23,6 +24,7 @@
             href="https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi" />
         <id>
             https://www.xataka.com/espacio/carrera-espacial-agresiva-no-eeuu-china-emiratos-arabia-saudi</id>
+        <updated>2023-06-11T19:00:00+00:00</updated>
     </entry>
 
     <entry>
@@ -30,5 +32,6 @@
             Binance</title>
         <link href="https://FranB01.github.io/html/noticia.html" />
         <id>https://FranB01.github.io/html/noticia.html</id>
+        <updated>2023-06-11T19:00:00+00:00</updated>
     </entry>
 </feed>
